@@ -1,15 +1,5 @@
-//:::: Alien :::://
-// Muhammad Eid //
 #include <bits/stdc++.h>
 using namespace std;
-
-void Mo35() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-
-    freopen("input.txt", "rt", stdin);
-}
 
 void heapify(int ar[], int sz, int i) {
     int largest = i;
@@ -51,7 +41,7 @@ void scanArray(int ar[], int sz) {
     }
 }
 
-int main() {  Mo35();
+int main() {
 
     int sz; cin >> sz;
     int ar[sz];
