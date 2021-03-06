@@ -1,3 +1,3 @@
 # DataStructures-and-Algorithms
 
-Data Structures and Algorithms implementation.
+This repository contains implementation of Data Structures, Algorithms and Problem Solving tricks.
