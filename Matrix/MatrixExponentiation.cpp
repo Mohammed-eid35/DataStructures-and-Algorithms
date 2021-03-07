@@ -12,6 +12,12 @@ struct Matrix {
         cols = _cols;
         matrix = vector<vector<int>>(rows, vector<int>(cols));
     }
+    
+    Matrix (vector<vector<int>> _matrix) {
+        matrix = _matrix;
+        rows = matrix.size();
+        cols = matrix[0].size();
+    }
 
     void scanMatrix() {
         for (int i = 0; i < rows; ++i)
